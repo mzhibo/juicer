@@ -10,6 +10,10 @@ The following two scripts has been added (extracted from the juicer.sh)
 launch_stats.sh
 postprocessing.sh
 
+####
+IMPORTANT: Each PBS cluster set-up may be different, please adjust the resource request commands in job submission headerlines to fit your cluster.
+####
+
 All steps has been tested till the ARROWHEAD step.
 *HiCCUP step has not been tested in this version because of some un-resolved error in loading Jcuda native libraries.
 
